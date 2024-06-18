@@ -1,0 +1,6 @@
+# F.tanh(1.46 * x)
+# F.tanh(x) * F.gelu(x)
+# F.sigmoid(x) * F.tanh(x) * F.tanh(x) * F.gelu(x)
+# F.sigmoid(x) * F.sigmoid(x) / 0.5 * F.tanh(x)
+# 0.5 * F.sigmoid(x) * F.gelu(x) ; fine
+# F.sigmoid(x) * F.tanh(x) * F.gelu(x)
